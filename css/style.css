@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    height: 100px;
+    background: #2b4074;
+}
+
+.header-container {
+    max-width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-button {
+    height: 40px;
+    width: 40px;
+    background: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-button:hover {
+    background: #2b4074;
+    color: white;
+    border: 2px white solid;
+    border-radius: 3px;
+}
+
+.intro {
+    background-image: url("../images/intro-background.jpg");
+    background-size: cover;
+}
+
+.intro-container {
+    width: 1140px;
+    height: 668px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-slide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.intro-title {
+    margin: 0;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 96px;
+    color: white;
+    letter-spacing: 2px;
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.intro-text {
+    width: 886px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    display: flex;
+}
+
+.button-read-more {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #f9f6e5;
+    border-radius: 3px;
+    border-style: none;
+    cursor: pointer;
+    font-weight: normal;
+    background: #2b4074;
+}
+
+.button-read-more:hover {
+    color: #2b4074;
+    background: #f9f6e5;
+}
+
+.intro-pagination {
+    margin: 0 auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-circle {
+    background: white;
+    border-radius: 50%;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.fa-circle:active, .fa-circle:hover {
+    background: none;
+}
+
+.promo {
+    width: 100%;
+    height: 192px;
+    background: #2b4074;
+}
+
+.promo-container {
+
+}
