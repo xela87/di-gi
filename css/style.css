@@ -2,6 +2,11 @@
 
 html {
     font-family: 'Roboto Condensed', sans-serif;
+    --light-color: white;
+    --middle-color: #f9f6e5;
+    --dark-color: #2b4074;
+    --light-grey: #929292;
+    --dark-grey: #4a4a4a;
 }
 
 .main-header {
@@ -22,23 +27,22 @@ html {
 .menu-button {
     height: 40px;
     width: 40px;
-    background: white;
+    background: var(--light-color);
     border-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .menu-button:hover {
-    background: #2b4074;
-    color: white;
-    border: 2px white solid;
+    background: var(--dark-color);
+    color: var(--light-color);
+    border: 2px var(--light-color) solid;
     border-radius: 3px;
 }
 
 .intro {
     background-image: url("../images/intro-background.jpg");
     background-size: cover;
-
 }
 
 .intro-container {
@@ -66,7 +70,7 @@ html {
     font-size: 96px;
     font-weight: 400;
     line-height: 96px;
-    color: white;
+    color: var(--light-color);
     letter-spacing: 2px;
     display: flex;
     text-align: center;
@@ -80,7 +84,7 @@ html {
     line-height: 26px;
     text-align: center;
     font-weight: normal;
-    color: white;
+    color: var(--light-color);
     display: flex;
 }
 
@@ -89,17 +93,17 @@ html {
     height: 50px;
     font-size: 18px;
     line-height: 18px;
-    color: #f9f6e5;
+    color: var(--middle-color);
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
     font-weight: normal;
-    background: #2b4074;
+    background: var(--dark-color);
 }
 
 .button-read-more:hover {
-    color: #2b4074;
-    background: #f9f6e5;
+    color: var(--dark-color);
+    background: var(--middle-color);
 }
 
 .intro-pagination {
@@ -107,9 +111,9 @@ html {
 }
 
 .fa-circle {
-    background: white;
+    background: var(--light-color);
     border-radius: 50%;
-    color: white;
+    color: var(--light-color);
     margin-right: 5px;
     margin-left: 5px;
     cursor: pointer;
@@ -128,8 +132,8 @@ html {
 .intro-left-arrow, .intro-right-arrow {
     width: 70px;
     height: 70px;
-    background: #2b4074;
-    color: #f9f6e5;
+    background: var(--dark-color);
+    color: var(--middle-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,14 +143,14 @@ html {
 }
 
 .intro-left-arrow:hover, .intro-right-arrow:hover {
-    background: #f9f6e5;
-    color: #929292;
+    background: var(--middle-color);
+    color: var(--light-grey)
 }
 
 .promo {
     width: 100%;
     height: 192px;
-    background: #2b4074;
+    background: var(--dark-color);
 }
 
 .promo-container {
@@ -161,7 +165,7 @@ html {
 
 .promo-text {
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: var(--light-color);
     width: 550px;
     font-size: 20px;
     font-style: normal;
@@ -175,25 +179,25 @@ html {
     height: 50px;
     font-size: 18px;
     line-height: 18px;
-    color: #2b4074;
+    color: var(--dark-color);
     border-radius: 3px;
     border-style: none;
     cursor: pointer;
     font-weight: normal;
-    background: #f9f6e5;
+    background: var(--middle-color);
 }
 
 .call-me:hover {
-    color: #f9f6e5;;
-    background: #2b4074;
-    border: 2px white solid;
+    color: var(--middle-color);
+    background: var(--dark-color);
+    border: 2px var(--light-color) solid;
     border-radius: 3px;
 }
 
 .services {
     width: 100%;
     height: 546px;
-    background: white;
+    background: var(--light-color);
 }
 
 .services-container {
@@ -214,8 +218,7 @@ html {
 }
 
 .services h2 {
-    color: #2B4074;
-    font-family: Roboto Condensed, sans-serif;
+    color: var(--dark-color);
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
@@ -224,23 +227,23 @@ html {
 }
 
 .services h3 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     text-align: left;
-    color: #4a4a4a;
+    color: var(--dark-grey);
 }
 
 .services p {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #4a4a4a;
+    color: var(--dark-grey);
 }
 
 .services-items {
@@ -255,14 +258,29 @@ html {
 .item {
     display: flex;
     justify-content: center;
-    max-width: 900px;
+    /*max-width: 900px;*/
     text-align: center;
 }
 
 .description-1 {
     display: none;
     opacity: 0;
-    color: #9B9B9B;
+}
+
+.link-read-more {
+    display: none;
+    opacity: 0;
+}
+
+.item:hover  {
+    border: 5px var(--dark-color) solid;
+}
+
+.item:hover > .description-1 {
+    opacity: 1;
+    display: block;
+    text-align: center;
+    color: var(--light-grey);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -270,31 +288,12 @@ html {
     padding-bottom: 18px;
 }
 
-.link-read-more {
-    opacity: 0;
-    color: #2B4074;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 2px;
-}
-
-
-.item:hover  {
-    border: 5px #2B4074 solid;
-}
-
-.item:hover > .description-1 {
-    opacity: 1;
-    display: block;
-    text-align: center;
-}
-
 .item:hover > .link-read-more {
     opacity: 1;
     display: block;
     text-align: center;
     text-decoration: none;
-    font-family: Roboto Condensed, sans-serif;
+    color: var(--dark-color);
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -315,7 +314,6 @@ html {
 }
 
 .services-items > h4 {
-    font-family: Roboto Condensed,sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -327,7 +325,7 @@ html {
 hr {
     width: 99px;
     height: 8px;
-    background: #2B4074;
+    background: var(--dark-color);
     border: none;
     margin-top: 31px;
     margin-bottom: 30px;
@@ -337,61 +335,111 @@ hr {
 .recent-work {
     width: 100%;
     height: 668px;
-    background: linear-gradient(#2B4074, white);
+    background: linear-gradient(var(--dark-color), var(--light-color));
 }
 
 .recent-container {
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
     max-width: 1140px;
     height: 100%;
+}
+
+.recent-title > hr {
+    width: 99px;
+    height: 8px;
+    background: var(--light-color);
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recent-title > h2 {
+    padding-top: 80px;
+    color: var(--light-color);
+    font-size: 48px;
+    line-height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
 }
 
 .recent-title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
 .recent-content {
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+.recent-image {
+}
+
+.recent-image > i {
+    display: none;
+}
+
+.image-cover {
+    display: none;
+}
+
+.recent-image:hover > .image-cover, i {
+    display: block;
+    opacity: 0.85;
+    position: relative;
+    bottom: 220px;
+    z-index: 2;
+}
+.recent-image:hover > i {
+    display: block;
+}
+
+
 .portfolio {
     border-radius: 5px;
+    width: 250px;
+    z-index: 0;
 }
+
+
 
 .video-block {
     width: 100%;
     height: 580px;
-    background: white;
+    background: var(--light-color);
 }
 
 .latest-news {
     width: 100%;
     height: 1044px;
-    background: #f9f6e5;
+    background: var(--middle-color);
 }
 
 .testimonial {
     width: 100%;
     height: 540px;
-    background: white;
+    background: var(--light-color);
 }
 
 .main-footer {
     width: 100%;
     height: 639px;
-    background: #2b4074;
+    background: var(--dark-color);
 }
 
 .copyright {
     width: 100%;
     height: 42px;
-    background: #f9f6e5;
+    background: var(--middle-color);
     position: static;
     bottom: 42px;
 }
