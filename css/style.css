@@ -37,7 +37,7 @@ html {
 .menu-button:hover {
     background: var(--dark-color);
     color: var(--light-color);
-    border: 2px var(--light-color) solid;
+    border: 2px white solid;
     border-radius: 3px;
 }
 
@@ -340,12 +340,19 @@ hr {
 }
 
 .recent-container {
-    margin-right: auto;
-    margin-left: auto;
     display: flex;
     flex-direction: column;
     max-width: 1140px;
     height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.recent-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .recent-title > hr {
@@ -367,53 +374,59 @@ hr {
     margin: 0;
 }
 
-.recent-title {
+.recent-unit {
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    align-items: center;
 }
-.portfolio-img {
+
+.recent-unit > p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 2px;
+    color: var(--dark-color);
+}
+
+.recent-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recent-image {
     max-width: 100%;
     height: auto;
     border-radius: 6px;
 }
 
-.recent-content {
-    padding-top: 50px;
+.recent-image-links {
+    position: absolute;
+    width: 243px;
+    height: 217px;
+    background: var(--middle-color);
+    margin-top: 11px;
+    mix-blend-mode: normal;
+    border-radius: 4px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .3s;
 }
 
-
-.recent-image > i {
-    display: none;
-}
-
-.image-cover {
-    display: none;
-}
-
-.recent-image:hover > .image-cover, i {
-    display: block;
+.recent-image-links:hover {
     opacity: 0.85;
-    position: relative;
-    bottom: 220px;
-    z-index: 2;
+    transition: all .3s;
 }
-.recent-image:hover > i {
-    display: block;
+.recent-image-links a {
+    padding: 6px 6px;
 }
-
-
-.portfolio {
-    border-radius: 5px;
-    width: 250px;
-    z-index: 0;
-}
-
-
 
 .video-block {
     width: 100%;
