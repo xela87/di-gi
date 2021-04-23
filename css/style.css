@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
 html {
     font-family: 'Roboto Condensed', sans-serif;
@@ -12,7 +12,7 @@ html {
 .main-header {
     width: 100%;
     height: 100px;
-    background: #2b4074;
+    background: var(--dark-color);
 }
 
 .header-container {
@@ -27,6 +27,7 @@ html {
 .menu-button {
     height: 40px;
     width: 40px;
+    color: var(--dark-color);
     background: var(--light-color);
     border-radius: 3px;
     display: flex;
@@ -144,7 +145,7 @@ html {
 
 .intro-left-arrow:hover, .intro-right-arrow:hover {
     background: var(--middle-color);
-    color: var(--light-grey)
+    color: var(--light-grey);
 }
 
 .promo {
@@ -372,7 +373,11 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
-
+.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
 
 .recent-content {
     padding-top: 50px;
@@ -381,8 +386,6 @@ hr {
     justify-content: space-around;
 }
 
-.recent-image {
-}
 
 .recent-image > i {
     display: none;
