@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1928919a-c7f8-4b89-a65f-8ea3e623a042" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/info-bg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,10 @@
       <workItem from="1619172686518" duration="3332000" />
       <workItem from="1619192530220" duration="3143000" />
       <workItem from="1619195705183" duration="41000" />
-      <workItem from="1619199853312" duration="9601000" />
+      <workItem from="1619199853312" duration="10054000" />
+      <workItem from="1619210112524" duration="65000" />
+      <workItem from="1619274148509" duration="120000" />
+      <workItem from="1619363729747" duration="4600000" />
     </task>
     <task id="LOCAL-00001" summary="Almost added 4 block">
       <created>1619016796160</created>
@@ -109,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619195684607</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added 7 block, 6 almost done">
+      <created>1619209929119</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619209929119</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +144,7 @@
     <MESSAGE value="Added color vars, changed 4 block, added half of 5 block" />
     <MESSAGE value="Added 5 block" />
     <MESSAGE value="Added almost all content, not CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added almost all content, not CSS" />
+    <MESSAGE value="Added 7 block, 6 almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 7 block, 6 almost done" />
   </component>
 </project>
