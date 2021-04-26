@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1024px) {
+    .header-container {
+        max-width: 925px;
+    }
+    .intro-container {
+        width: 925px;
+    }
+    .intro-title {
+        font-size: 84px;
+        line-height: 84px;
+    }
+    .intro-text {
+        width: 620px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .intro-left-arrow, .intro-right-arrow {
+        width: 56px;
+        height: 56px;
+    }
+
+    .intro-nav-arrows {
+        top: calc(50% - 56px);
+        left: calc(100% - 56px);
+    }
+    .promo-container {
+        width: 925px;
+        height: 160px;
+    }
+    .promo-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .services {
+        height: 912px;
+    }
+
+    .services-container {
+        width: 950px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+
+    }
+
+    .services-content {
+        width: 100%;
+    }
+
+    .services h2 {
+        text-align: center;
+    }
+
+    .services-content p {
+        width: 608px;
+    }
+
+    .recent-work {
+        height: 1033px;
+    }
+
+    .recent-container {
+        width: 600px;
+    }
+
+    .recent-content {
+        padding-top: 40px;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+    }
+
+    .recent-unit {
+        padding-top: 40px;
+    }
+
+    .video-block {
+        height: 540px;
+        padding-top: 50px;
+    }
+
+    .video-block-container {
+        width: 925px;
+    }
+
+    .video-block-image img {
+        width: 395px;
+        height: 380px;
+    }
+
+    .text-content {
+        padding-left: 40px;
+        height: 380px;
+    }
+
+    .text-content > hr{
+        margin: 0;
+    }
+
+    .latest-news {
+        height: 1368px;
+    }
+
+    .latest-news-container {
+        width: 925px;
+    }
+
+    .latest-news-content {
+        column-count: 3;
+    }
+
+    .testimonial-container {
+        width: 950px;
+    }
+
+    .testimonial-slide > blockquote {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .testimonial-slide > p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .testimonial-pagination {
+        padding-top: 80px;
+    }
+
+    .main-footer-container {
+        width: 925px;
+    }
+
+    .copyright-container {
+        width: 925px;
+    }
+}
