@@ -170,7 +170,7 @@ html, body {
 .promo-text {
     font-family: 'Roboto', sans-serif;
     color: var(--light-color);
-    width: 550px;
+    width: 70%;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -671,7 +671,6 @@ blockquote > span {
     width: 230px;
     height: 60px;
     transform: translate(-50%);
-
     border-radius: 3px;
     background-color: var(--dark-color);
     display: flex;
@@ -684,10 +683,11 @@ blockquote > span {
 }
 
 .main-footer-container > p {
+    width: 80%;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 32px;
     display: flex;
     align-items: flex-end;
