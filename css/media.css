@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .header-container {
         max-width: 925px;
     }
@@ -139,6 +139,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     .header-container {
         width: 650px;
     }
@@ -264,4 +265,11 @@
     .copyright-container {
         width: 650px;
     }
+}
+@media only screen and (max-width: 644px) {
+
+}
+
+@media only screen and (max-width: 324px) {
+
 }

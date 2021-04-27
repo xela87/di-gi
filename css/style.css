@@ -129,7 +129,7 @@ html, body {
 
 .intro-nav-arrows {
     position: absolute;
-    top: calc(50% - 70px);
+    top: calc(45% - 70px);
     left: calc(100% - 70px);
 }
 
