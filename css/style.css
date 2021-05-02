@@ -60,14 +60,12 @@ html, body {
 }
 
 .intro-slide {
-    width: 50%;
+    width: 75%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: 0 auto;
 }
 
 .intro-title {
@@ -79,7 +77,6 @@ html, body {
     letter-spacing: 2px;
     display: flex;
     text-align: center;
-    align-items: flex-end;
 }
 
 .intro-text {

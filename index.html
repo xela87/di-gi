@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Digital Agency"/>
+    <meta property="og:description"
+          content="Мы предоставляем комплексный подход к продвижению компании,
+                продуктов и услуг в цифровой сфере."/>
+    <meta property="og:image" content="../images/intro-background.jpg"/>
     <title>Di-Gi</title>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -20,18 +27,30 @@
         </div>
     </div>
 </header>
+
 <section class="intro">
     <div class="intro-container">
-        <div class="intro-slide">
-            <h1 class="intro-title">МЫСЛИ ГЛОБАЛЬНО</h1>
-            <p class="intro-text">Di Gі - это диджитал агентство полного цикла, направленное на самый лучший результат
-                наших клиентов в маркетинге, продажах и управлении </p>
-            <button class="button-read-more">ПОДРОБНЕЕ</button>
-        </div>
-        <div class="intro-pagination">
-            <i class="far fa-circle"></i>
-            <i class="far fa-circle"></i>
-            <i class="far fa-circle"></i>
+        <div class="owl-carousel" id="top-slider">
+            <div class="intro-slide">
+                <h1 class="intro-title">МЫСЛИ ГЛОБАЛЬНО</h1>
+                <p class="intro-text">Di Gі - это диджитал агентство полного цикла, направленное на самый лучший
+                    результат
+                    наших клиентов в маркетинге, продажах и управлении </p>
+                <button class="button-read-more">ПОДРОБНЕЕ</button>
+            </div>
+            <div class="intro-slide">
+                <h1 class="intro-title">ВТОРОЙ СЛАЙД</h1>
+                <p class="intro-text">It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout.</p>
+                <button class="button-read-more">ПОДРОБНЕЕ</button>
+            </div>
+            <div class="intro-slide">
+                <h1 class="intro-title">ТРЕТИЙ СЛАЙД</h1>
+                <p class="intro-text">The point of using Lorem Ipsum is that it has a more-or-less.
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. </p>
+                <button class="button-read-more">ПОДРОБНЕЕ</button>
+            </div>
         </div>
     </div>
     <div class="intro-nav-arrows">
@@ -39,6 +58,7 @@
         <button class="intro-right-arrow"><i class="fas fa-chevron-right"></i></button>
     </div>
 </section>
+
 <section class="promo">
     <div class="promo-container">
         <div class="promo-text">
@@ -49,6 +69,7 @@
         <button class="call-me">ПЕРЕЗВОНИТЕ МНЕ</button>
     </div>
 </section>
+
 <section class="services">
     <div class="services-container">
         <div class="services-content">
@@ -237,16 +258,23 @@
 <section class="testimonial">
     <div class="testimonial-container">
         <i class="fas fa-quote-right"></i>
-        <div class="testimonial-slide">
-            <blockquote>Если нужно создавать либо повышать имидж компании, <br>
-                то <span>диджитал-маркетинг</span> является наиболее подходящим
-            </blockquote>
-            <p>- Маргарита Акулич</p>
-        </div>
-        <div class="testimonial-pagination">
-            <i class="far fa-circle"></i>
-            <i class="far fa-circle"></i>
-            <i class="far fa-circle"></i>
+        <div class="testimonial-carousel owl-carousel" id="testimonial-slider">
+            <div class="testimonial-slide">
+                <blockquote>Если нужно создавать либо повышать имидж компании, <br>
+                    то <span>диджитал-маркетинг</span> является наиболее подходящим
+                </blockquote>
+                <p>- Маргарита Акулич</p>
+            </div>
+            <div class="testimonial-slide">
+                <blockquote>Если долго идти, то <span>обязательно</span> придешь</blockquote>
+                <p>- Чемпион по ходьбе</p>
+            </div>
+            <div class="testimonial-slide">
+                <blockquote>На солнце через телескоп можно посмотреть всего два раза, один раз
+                    <span>левым глазом</span>, второй <span>правым глазом</span>
+                </blockquote>
+                <p>- Кот Базилио</p>
+            </div>
         </div>
     </div>
 </section>
@@ -301,6 +329,8 @@
 </section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
