@@ -14,4 +14,12 @@ let topSectionSlider = $("#top-slider").owlCarousel({
     itemsMobile: 1
 });
 
+$("#testimonial-slider").owlCarousel({
+    autoPlay: 5000,
+    items: 1,
+    itemsDesktop: [1024, 1],
+    itemsDesktopSmall: [768, 1],
+    itemsTablet: [480, 1],
+    itemsMobile: 1
+});
 

@@ -61,9 +61,6 @@
 	background: var(--dark-color);
 }
 
-
-
-
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
 	filter: Alpha(Opacity=100);/*IE7 fix*/
